@@ -19,5 +19,6 @@ public class MainEntry {
 			System.out.println("----------------");
 			System.out.println("점수 총점"+"="+ total);
 			System.out.println("점수 평균"+"="+(total/3));
+			
 	}
 }
