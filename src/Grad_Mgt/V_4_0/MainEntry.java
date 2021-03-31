@@ -22,11 +22,6 @@ public class MainEntry {
 //		총점 : 300 , 평균 :100.00 , 학점 :
 		//성적관리 프로그램_V_4.0 // 
 		
-//		subject :
-//		전산,영어,국어 점수 입력 받아서 평균 60점이상이고,
-//	    각 과목 과락 40점이하면 과목 불합격 처리하는 프로그램 작성
-//		- 무슨 과목이 몇점이라서 과락 했는지 포함
-				
 /*
 		변수 선언
 		kor(int) = 국어
@@ -83,6 +78,7 @@ public class MainEntry {
 //		전산,영어,국어 점수 입력 받아서 평균 60점이상이고,
 //	    각 과목 과락 40점이하면 과목 불합격 처리하는 프로그램 작성
 //		- 무슨 과목이 몇점이라서 과락 했는지 포함
+		
 		Scanner sc = new Scanner(System.in);
 		String grade =null;
 		int kor = 0,eng = 0,com = 0,total = 0;
@@ -104,12 +100,12 @@ public class MainEntry {
 			total = (kor+eng+com);
 			float avg =(((float)total)/3);
 			
-			if (avg<60 ||kor <= 40||eng <= 40||com <= 40) {
+			if (avg<60) {
 				System.out.println("불합격 입니다");
 			} 
 			 if(kor<40) 
 				{
-						System.out.println("국어 불합격"+"국어점수"+kor+"점");
+						System.out.println("국어 불합격"+kor+"점");
 				}
 			 if(eng<40) 
 				{
