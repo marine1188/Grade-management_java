@@ -1,3 +1,7 @@
+/*
+ 	강사님 코드 
+ 	ㄴㄴㄴ
+ */
 package Grad_Mgt.V_8_0;
 
 import java.util.Scanner;

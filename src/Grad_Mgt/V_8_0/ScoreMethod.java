@@ -1,3 +1,6 @@
+/*
+ * 점수 함수
+ */
 package Grad_Mgt.V_8_0;
 
 import java.util.Scanner;

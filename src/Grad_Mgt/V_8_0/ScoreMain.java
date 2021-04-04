@@ -1,3 +1,6 @@
+/*
+ * 성적 메인 선택문 까지
+ */
 package Grad_Mgt.V_8_0;
 
 import java.util.Scanner;
